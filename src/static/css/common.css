@@ -1,0 +1,145 @@
+body,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+pre,
+xmp {
+  margin: 0;
+  padding: 0
+}
+
+ul,
+ol,
+menu {
+  list-style: none
+}
+
+fieldset,
+img {
+  border: 0
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  outline: 0 none;
+  border: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0
+}
+
+a,
+ins,
+s,
+u,
+del {
+  text-decoration: none
+}
+
+body {
+  background: #4DA6E1;
+  overflow-x: hidden;
+  overflow-y: auto
+}
+
+/* 导出 */
+/* 趋势图 */
+.trendFigure {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  background: url('/static/img/trend.png') center no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 3px
+}
+
+.exportData {
+  display: inline-block;
+  width: 22px;
+  height: 23px;
+  background: url('/static/img/excelDown.png') center no-repeat;
+  background-size: contain
+}
+
+.companyTitle {
+  height: 40px;
+  line-height: 40px;
+  background: #f8fafb;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px 4px 0 0;
+  color: #266397;
+  text-indent: 14px;
+  font-weight: 700;
+}
+
+.search,
+.searchDiscounted {
+  display: inline-block;
+  width: 74px;
+  height: 34px;
+  line-height: 34px;
+  background: #2c94cc;
+  color: #fff;
+}
+
+.downloadFile {
+  width: 106px;
+  height: 34px;
+  line-height: 34px;
+  background: #f5f4f6 url("/static/img/excle.png") 8px center no-repeat;
+  background-size: 20px 20px;
+  text-indent: 26px;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.28);
+}
+
+.introduction {
+  overflow-x: hidden;
+}
+
+.company {
+  height: 30px;
+  line-height: 30px;
+  text-indent: 14px;
+  color: #266397;
+  background: #f8fafb;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+}
+
+.company .el-breadcrumb {
+  font-size: 16px;
+}
+
+.listBox {
+  padding-bottom: 20px;
+}
